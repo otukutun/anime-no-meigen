@@ -3,6 +3,7 @@ require 'sinatra'
 require 'sinatra/reloader'
 require 'yaml'
 require 'erb'
+require 'active_support/all'
 
 get '/' do
   @quotes = YAML.load_file("#{settings.root}/quotes.yml")

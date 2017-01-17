@@ -1,5 +1,10 @@
-<% @quotes.each do |quote| %>
-  <%= quote['id'] %>
-  <%= quote['body'] %>
-  by <%= quote['author'] %>
-<% end %>
+<ul>
+  <% @quotes.each do |quote| %>
+    <li>
+    <%= quote['id'] %>
+    <%= quote['body'] %>
+    by <%= quote['speaker'] %>
+    <%= quote['anime_title'] %>
+    </li>
+  <% end %>
+</ul>
