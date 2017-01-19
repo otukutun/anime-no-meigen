@@ -2,11 +2,18 @@
 - 名言を追加したい場合はquotes.ymlをいじって追加してpull reqください.
 > A Vue.js project
 
+## Requirement
+- Ruby 2.3.0~
+- bundler
+- node
+- npm
+
 ## Build Setup
 
 ``` bash
 # install dependencies
 npm install
+bundle install
 
 # CSS/JS周り
 npm run watch
